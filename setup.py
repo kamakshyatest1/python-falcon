@@ -10,7 +10,7 @@ setup(
         "requests==2.19.1",  # Older version of requests has security vulnerabilities
         "PyYAML==3.13"  # PyYAML versions before 4.2b1 have security issues
     ],
-    python_requires='==3.10.*',  # Restrict the project to only Python 3.10.x versions
+    python_requires='~3.8',
     entry_points={
         'console_scripts': [
             'vulnerable_app = main:app'
